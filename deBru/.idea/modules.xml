@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ContigsCreation.iml" filepath="$PROJECT_DIR$/ContigsCreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/base/base.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/cache/cache.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/collect/collect.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/collect/collect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/util/concurrent/concurrent.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/util/concurrent/concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/util/concurrent/concurrent1.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/util/concurrent/concurrent1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/escape/escape.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/com/google/common/escape/escape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/futures/failureaccess/failureaccess.iml" filepath="$PROJECT_DIR$/src/guava-master/futures/failureaccess/failureaccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/android/guava/guava.iml" filepath="$PROJECT_DIR$/src/guava-master/android/guava/guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/guava-gwt.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/guava-gwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-master.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-testlib/guava-testlib.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-testlib/guava-testlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/android/guava-testlib/guava-testlib1.iml" filepath="$PROJECT_DIR$/src/guava-master/android/guava-testlib/guava-testlib1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/android/guava-tests/guava-tests.iml" filepath="$PROJECT_DIR$/src/guava-master/android/guava-tests/guava-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-tests/guava-tests1.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-tests/guava-tests1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava/guava1.iml" filepath="$PROJECT_DIR$/src/guava-master/guava/guava1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/java/lang/lang.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/java/lang/lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/futures/listenablefuture1/listenablefuture1.iml" filepath="$PROJECT_DIR$/src/guava-master/futures/listenablefuture1/listenablefuture1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/commons-collections4-4.2-src/src/main/main.iml" filepath="$PROJECT_DIR$/src/commons-collections4-4.2-src/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/commons-io-2.6-src/src/main/main1.iml" filepath="$PROJECT_DIR$/src/commons-io-2.6-src/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/commons-lang3-3.8.1-src/src/main/main2.iml" filepath="$PROJECT_DIR$/src/commons-lang3-3.8.1-src/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/math/math.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/math/math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/primitives/primitives.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/primitives/primitives.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/testing/testing.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/testing/testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/collect/testing/testing1.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/test-super/com/google/common/collect/testing/testing1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/java/util/util.iml" filepath="$PROJECT_DIR$/src/guava-master/guava-gwt/src-super/java/util/util.iml" />
+    </modules>
+  </component>
+</project>

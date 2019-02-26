@@ -1,0 +1,18 @@
+node {
+   fill-color: #a1d99b;
+   size: 15px;
+   text-size: 12;
+   text-alignment: at-right;
+   text-padding: 2;
+   text-background-color: #fff7bc;
+   z-index: 0;
+}
+edge {
+   shape: line;
+   fill-color: #dd1c77;
+   text-background-mode: rounded-box;
+   text-background-color: #fff7bc;
+   text-alignment: above;
+   text-padding: 2;
+   arrow-size: 5px, 6px;
+ }
