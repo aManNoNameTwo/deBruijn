@@ -39,7 +39,7 @@ public class ContigsCreation implements Constants{
         }
         //debru.showGraph("preGraph");
         merge_unipath();
-
+        debru.maxPath();
         debru.printf_reEdge();
         debru.showGraph("afterGraph");
         return null;
@@ -308,9 +308,9 @@ public class ContigsCreation implements Constants{
                                 //System.out.println(Long.toBinaryString(k_mer));
                             }
                             //System.out.println(Long.toBinaryString(k_mer));
-                            if(k_mer == 0L){
-                                continue;
-                            }
+//                            if(k_mer == 0L){
+//                                continue;
+//                            }
                             addK_mers(kmersHash,k_mer,pins.get(i-1),L);
                         }
                     }

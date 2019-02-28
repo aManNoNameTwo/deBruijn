@@ -5,6 +5,7 @@ import org.graphstream.graph.Graph;
 import org.graphstream.graph.implementations.MultiGraph;
 import org.graphstream.ui.swingViewer.View;
 import org.graphstream.ui.swingViewer.Viewer;
+import scala.Array;
 import scala.Int;
 
 import java.util.*;
@@ -15,6 +16,9 @@ public class DeBruijnGraph {  //使用十字链表存储结构
     //以Kmer的hash表做表头，以Vertex做节点
     List<Vertex> vertexList = new ArrayList<>();
     Map<EdgeNode,Long> re_edgeNode = new HashMap<>();
+    List<EdgeNode> edgeList = new ArrayList<>();
+    long[] distance; //
+    int[] path;
     //int num_vertex = 0;
     public boolean addVex(K_mers kmer){
         if(getPosition(kmer,vertexList)<0){
@@ -61,7 +65,7 @@ public class DeBruijnGraph {  //使用十字链表存储结构
         edge.idpos_map = adjID_pos(vertexList.get((int)vi).kmer,vertexList.get((int)vj).kmer);
         vertexList.get((int)vi).firstOut = edge;
         vertexList.get((int)vj).firstIn = edge;
-
+        edgeList.add(edge);
         //edge_in.tailvex = vi;
         //edge_in.headvex = vj;
 
@@ -160,6 +164,9 @@ public class DeBruijnGraph {  //使用十字链表存储结构
         re_edgeNode.put(v.firstOut,re_edgeNode.get(vi.firstOut));
         re_edgeNode.remove(vi.firstOut);
         re_edgeNode.remove(vj.firstOut);
+        edgeList.add(v.firstOut);
+        edgeList.remove(vi.firstOut);
+        edgeList.remove(vj.firstOut);
         vj.firstIn = null;
         vj.firstOut = null;
         //vertexList.get((int)vj.firstOut.headvex).firstIn.headlink = v.firstOut;
@@ -262,7 +269,76 @@ public class DeBruijnGraph {  //使用十字链表存储结构
         }
 
     }
+    public void maxPath(){
+        List<Integer> firstV = new ArrayList<>();
+        int nullNode = 0;
+        for(int i=0;i<vertexList.size();i++){
+            if(vertexList.get(i).firstOut==null && vertexList.get(i).firstIn ==null){
+                continue;
+            }
+            if(nullNode ==0)  nullNode =i;
+            if(inDegree(vertexList.get(i)) == 0){
+                firstV.add(i);
+            }
+        }
+        if(firstV.size()>0){
+            for(int i=0;i<firstV.size();i++){
+                bellmanFord(vertexList.size(),firstV.get(i));
+            }
+        }else{
+            bellmanFord(vertexList.size(),nullNode);
+        }
 
+        System.out.printf("the max distance is ");
+    }
+    public long getMin(long [] array){
+        long max = -1L;
+        for(int i=0;i<array.length;i++){
+            if(array[i]>max){
+                max =array[i];
+            }
+        }
+        return max;
+    }
+    public void bellmanFord(int size,int source){
+        distance = new long[size];
+        path = new int[size];
+        for(int i=0;i<distance.length;i++){
+            distance[i] = Long.MAX_VALUE;
+            path[i]= -1;
+        }
+        distance[source]=0;
+//        for(EdgeNode edge:edgeList){
+//            if((int)edge.tailvex == source){
+//                distance[(int)edge.headvex] =edge.weight;
+//            }
+//        }
+        for(int i=1;i<size;i++){
+            for(EdgeNode edge:edgeList){
+                relax((int)edge.tailvex,(int)edge.headvex,(int)edge.weight);  //relax operate for each edge
+            }
+        }
+        for(Map.Entry<EdgeNode,Long> entry:re_edgeNode.entrySet()){
+            distance[(int)entry.getKey().headvex] = distance[(int)entry.getKey().tailvex]+
+                    entry.getValue()*entry.getKey().weight;
+            path[(int)entry.getKey().headvex] = (int)entry.getKey().tailvex;
+        }
+        //is there a negative loop
+        boolean flag = true;
+        for (EdgeNode anEdge : edgeList) {
+            if (distance[(int)anEdge.headvex] > distance[(int)anEdge.tailvex] + anEdge.weight) {
+                flag = false;
+                break;
+            }
+        }
+
+    }
+    private void relax(int u, int v, int weight) {
+        if (distance[v] > distance[u] + weight) {
+            distance[v] = distance[u] + weight;
+            path[v] = u;
+        }
+    }
 }
 class Vertex{
     K_mers kmer;
@@ -280,6 +356,7 @@ class Vertex{
 class EdgeNode{
     long tailvex;
     long headvex;
+    long weight = -1L;
     EdgeNode headlink;
     EdgeNode taillink;
     Map<String,List<Integer>> idpos_map = new HashMap<>();

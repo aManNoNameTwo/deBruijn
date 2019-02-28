@@ -18,7 +18,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ContigsCreation$ContigsCreation__1_.ic" NAME="ContigsCreation (1) Coverage Results" MODIFIED="1547443836820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ContigsCreation$ContigsCreation__1_.ic" NAME="ContigsCreation (1) Coverage Results" MODIFIED="1551355611175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cn.contigs.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ContigsCreation$test.ic" NAME="test Coverage Results" MODIFIED="1551090832800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -33,7 +33,7 @@
       <file leaf-file-name="K_mers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/K_mers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="1034">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,7 +48,7 @@
       <file leaf-file-name="ReadID_Pos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/ReadID_Pos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="220">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,29 +57,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeBruijnGraph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeBruijnGraph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/DeBruijnGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="289">
+              <caret line="311" column="46" lean-forward="true" selection-start-line="311" selection-start-column="46" selection-end-line="311" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#addVex#0;class#DeBruijnGraph#0" />
+                <element signature="method#addEdge#0;class#DeBruijnGraph#0" />
+                <element signature="method#adjID_pos#0;class#DeBruijnGraph#0" />
+                <element signature="method#dis_k_Ele#0;class#DeBruijnGraph#0" />
+                <element signature="method#index_ReadID_Pos#0;class#DeBruijnGraph#0" />
                 <element signature="method#mergeVex_in_unipath#0;class#DeBruijnGraph#0" />
                 <element signature="method#getPosition#0;class#DeBruijnGraph#0" />
                 <element signature="method#outDegree#0;class#DeBruijnGraph#0" />
                 <element signature="method#inDegree#0;class#DeBruijnGraph#0" />
+                <element signature="method#showGraph#0;class#DeBruijnGraph#0" />
                 <element signature="method#printf_reEdge#0;class#DeBruijnGraph#0" />
                 <element signature="method#printf#0;class#DeBruijnGraph#0" />
+                <element signature="method#getMin#0;class#DeBruijnGraph#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContigsCreation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContigsCreation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/ContigsCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+            <state relative-caret-position="211">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#bit_Reverse#0;class#ContigsCreation#0" />
@@ -87,9 +94,7 @@
                 <element signature="method#findKth#2;class#ContigsCreation#0" />
                 <element signature="method#partation#0;class#ContigsCreation#0" />
                 <element signature="method#readFq#0;class#ContigsCreation#0" />
-                <element signature="e#14262#14274#0" expanded="true" />
-                <element signature="e#14751#14752#0" expanded="true" />
-                <element signature="e#14799#14800#0" expanded="true" />
+                <element signature="e#14561#14573#0" expanded="true" />
                 <element signature="method#merge_unipath#0;class#ContigsCreation#0" />
                 <element signature="method#sumOf_2#0;class#ContigsCreation#0" />
                 <element signature="method#pre_base#0;class#ContigsCreation#0" />
@@ -103,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/Seq_fre.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -112,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -120,8 +125,8 @@
       <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="154">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/contigs/loadK_mers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/cn/contigs/Seq_fre.java" />
         <option value="$PROJECT_DIR$/src/cn/contigs/K_mers.java" />
         <option value="$PROJECT_DIR$/src/cn/contigs/ReadID_Pos.java" />
-        <option value="$PROJECT_DIR$/src/cn/contigs/DeBruijnGraph.java" />
         <option value="$PROJECT_DIR$/src/cn/contigs/FileRead.java" />
         <option value="$PROJECT_DIR$/src/cn/contigs/geneReadFile.java" />
         <option value="$PROJECT_DIR$/src/cn/contigs/GeneReads.java" />
@@ -222,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/cn/contigs/test.java" />
         <option value="$PROJECT_DIR$/src/cn/contigs/Constants.java" />
         <option value="$PROJECT_DIR$/src/cn/contigs/ContigsCreation.java" />
+        <option value="$PROJECT_DIR$/src/cn/contigs/DeBruijnGraph.java" />
       </list>
     </option>
   </component>
@@ -241,43 +246,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1351" />
-    <option name="y" value="204" />
-    <option name="width" value="853" />
-    <option name="height" value="453" />
+    <option name="x" value="-1203" />
+    <option name="y" value="137" />
+    <option name="width" value="569" />
+    <option name="height" value="302" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ContigsCreation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workProgram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ContigsCreation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ContigsCreation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contigs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -470,11 +449,13 @@
       <workItem from="1551079130190" duration="4090000" />
       <workItem from="1551172174242" duration="1604000" />
       <workItem from="1551174048478" duration="13177000" />
+      <workItem from="1551193765035" duration="202000" />
+      <workItem from="1551234287020" duration="24274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478316000" />
+    <option name="totallyTimeSpent" value="502792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +479,8 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.29334787" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.44711015" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.49103943" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -514,7 +496,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Analyze Dataflow to" order="12" weight="0.3291592" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.31663114" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.059139784" />
@@ -588,21 +569,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/contigs/ContigsCreation.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/src/cn/contigs/DeBruijnGraph.java</url>
+          <line>291</line>
           <properties />
-          <option name="timeStamp" value="225" />
+          <option name="timeStamp" value="228" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="226" />
+      <option name="time" value="243" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="kmer.base_seq" />
-        <watch expression="next_kmer.base_seq" />
+        <watch expression="edge.tailvex" />
+        <watch expression="edge.headvex" />
       </configuration>
     </watches-manager>
   </component>
@@ -745,27 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/contigs/ReadID_Pos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="439" selection-start-line="439" selection-end-line="439" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="404" column="12" selection-start-line="404" selection-start-column="12" selection-end-line="404" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -802,10 +766,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/contigs/test.java">
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="515" column="54" selection-start-line="515" selection-start-column="7" selection-end-line="515" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/contigs/Seq_fre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/contigs/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/contigs/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -815,46 +800,26 @@
     <entry file="file://$PROJECT_DIR$/src/cn/contigs/loadK_mers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/contigs/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/contigs/ReadID_Pos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/contigs/Seq_fre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/contigs/DeBruijnGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#mergeVex_in_unipath#0;class#DeBruijnGraph#0" />
-            <element signature="method#getPosition#0;class#DeBruijnGraph#0" />
-            <element signature="method#outDegree#0;class#DeBruijnGraph#0" />
-            <element signature="method#inDegree#0;class#DeBruijnGraph#0" />
-            <element signature="method#printf_reEdge#0;class#DeBruijnGraph#0" />
-            <element signature="method#printf#0;class#DeBruijnGraph#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/contigs/K_mers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="1034">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -867,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/contigs/ContigsCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+        <state relative-caret-position="211">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#bit_Reverse#0;class#ContigsCreation#0" />
@@ -876,13 +841,34 @@
             <element signature="method#findKth#2;class#ContigsCreation#0" />
             <element signature="method#partation#0;class#ContigsCreation#0" />
             <element signature="method#readFq#0;class#ContigsCreation#0" />
-            <element signature="e#14262#14274#0" expanded="true" />
-            <element signature="e#14751#14752#0" expanded="true" />
-            <element signature="e#14799#14800#0" expanded="true" />
+            <element signature="e#14561#14573#0" expanded="true" />
             <element signature="method#merge_unipath#0;class#ContigsCreation#0" />
             <element signature="method#sumOf_2#0;class#ContigsCreation#0" />
             <element signature="method#pre_base#0;class#ContigsCreation#0" />
             <element signature="method#kmersAdders#0;class#ContigsCreation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/contigs/DeBruijnGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="311" column="46" lean-forward="true" selection-start-line="311" selection-start-column="46" selection-end-line="311" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addVex#0;class#DeBruijnGraph#0" />
+            <element signature="method#addEdge#0;class#DeBruijnGraph#0" />
+            <element signature="method#adjID_pos#0;class#DeBruijnGraph#0" />
+            <element signature="method#dis_k_Ele#0;class#DeBruijnGraph#0" />
+            <element signature="method#index_ReadID_Pos#0;class#DeBruijnGraph#0" />
+            <element signature="method#mergeVex_in_unipath#0;class#DeBruijnGraph#0" />
+            <element signature="method#getPosition#0;class#DeBruijnGraph#0" />
+            <element signature="method#outDegree#0;class#DeBruijnGraph#0" />
+            <element signature="method#inDegree#0;class#DeBruijnGraph#0" />
+            <element signature="method#showGraph#0;class#DeBruijnGraph#0" />
+            <element signature="method#printf_reEdge#0;class#DeBruijnGraph#0" />
+            <element signature="method#printf#0;class#DeBruijnGraph#0" />
+            <element signature="method#getMin#0;class#DeBruijnGraph#0" />
           </folding>
         </state>
       </provider>
